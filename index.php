@@ -18,11 +18,16 @@ class Movie {
     }
 }
 
+// definito oggetto 1
 $titanic = new Movie('titanic', 'drammatico');
 $titanic->regista = 'James Cameron' ;
 $titanic->year = 1997;
 
-var_dump($titanic);
+// definito oggetto 2
+$perlHarbor = new Movie('perl harbor', 'storico');
+$perlHarbor->regista = 'michael bay';
+$perlHarbor->year = 2001;
+
 
 
 ?>
